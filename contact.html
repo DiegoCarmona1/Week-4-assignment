@@ -16,10 +16,40 @@
                 <li><a href="about.html" target="_self">About Us</a></li>
             </ul>
         </nav>
-        <h1>Article</h1>
+        <h1>Purchase Request</h1>
     </header>
     <main>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="First and last name">
 
+            <br> 
+
+            <label for="age">Age:</label>
+            <input type="Number" id="age" name="age" min="1" max="100">
+
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com">
+
+            <br>
+
+            <label for="harvest">Harvest Products:</label>
+            <select id="harvest" name="harvest">
+                <option value="corn">Corn</option>
+                <option value="wheat">Wheat</option>
+                <option></option>
+            </select>
+            <input type="number" id="weight/items" name="pounds" min="1" max="100">Lbs
+
+            <br>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+
+        </form>
     </main>
     <footer>
         <p> &copy;Carmona Family co. </p>
