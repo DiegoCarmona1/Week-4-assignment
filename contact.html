@@ -39,14 +39,30 @@
             <select id="harvest" name="harvest">
                 <option value="corn">Corn</option>
                 <option value="wheat">Wheat</option>
-                <option></option>
+                <option value="Whole chicken">Chicken</option>
             </select>
             <input type="number" id="weight/items" name="pounds" min="1" max="100">Lbs
 
             <br>
 
+            <label for="equipment">Equipment Products:</label>
+            <select id="equipment" name="equipment">
+                <option value="2012 Claas 740 Combine">2012 Combine</option>
+                <option value="2020 Claas 6800 T4 Combine">2020 Combine</option>
+                <option value="2002 New Holland CX840 Combine">2002 Combine</option>
+            </select>
+            <input type="checkbox" id="interested" name="interested" value="yes">
+
+            <br>
+
             <label for="comments">Comments:</label>
             <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+            <br>
+
+            <input type="submit" value="Submit">
+
+            <input type="reset" value="Reset">
         </form>
     </main>
     <footer>
